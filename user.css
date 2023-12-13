@@ -1,0 +1,193 @@
+.r-section-12{
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction:column; 
+    padding: 50px;
+}
+.bloc-1{
+    width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #272b32;
+}
+
+.sous-bloc-1{
+    align-items: flex-start;
+}
+.sous-bloc-2{
+    display: flex;
+    align-items: center;
+    flex-direction:column; 
+
+}
+.photo_profil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.prenom{
+    color: #272b32;
+    font-size:large;
+    font-weight: 700;
+}
+
+
+
+.profil_img{
+    width: 100px;
+    padding: 3px; /* Ajustez selon votre préférence pour l'espace autour de l'image */
+    border: 5px solid green;
+    border-radius: 50%;
+    overflow: hidden;
+
+    
+  }
+
+
+.inputFileButton{
+    background-color: transparent;
+    border: 0px solid transparent;
+    color: #272b32; 
+    font-size: 12px;
+    font-weight: 700;
+
+    cursor: pointer;
+}
+.pushFileButton{
+    background-color: transparent;
+    border: 0px solid transparent;
+    color: #272b32;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.bloc-2{
+    width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    display: flex-start;
+    align-items: center;
+    border-bottom: 2px solid #272b32;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+
+.toggle-switch {
+    margin-right: 10px;
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+.toggle-switch input {
+opacity: 0;
+width: 0;
+height: 0;
+}
+
+.toggle-switch label {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #ccc; /* Couleur de fond de l'interrupteur inactif */
+border-radius: 17px; /* Pour créer une forme de bouton rond */
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+.toggle-switch input:checked + label {
+background-color: #4caf50; /* Couleur de fond de l'interrupteur actif */
+}
+
+.toggle-switch label:before {
+content: '';
+position: absolute;
+width: 26px; /* Largeur du bouton rond */
+height: 26px; /* Hauteur du bouton rond */
+background-color: #fff; /* Couleur du bouton rond */
+border-radius: 50%;
+top: 4px;
+left: 4px;
+transition: transform 0.3s;
+}
+
+.toggle-switch input:checked + label:before {
+transform: translateX(26px); /* Déplacer le bouton rond à droite lorsque l'interrupteur est activé */
+}
+.toggle-switch2 {
+    margin-right: 10px;
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.toggle-switch2 input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-switch2 label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc; /* Couleur de fond de l'interrupteur inactif */
+    border-radius: 17px; /* Pour créer une forme de bouton rond */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.toggle-switch2 input:checked + label {
+    background-color: #4caf50; /* Couleur de fond de l'interrupteur actif */
+}
+
+.toggle-switch2 label:before {
+    content: '';
+    position: absolute;
+    width: 26px; /* Largeur du bouton rond */
+    height: 26px; /* Hauteur du bouton rond */
+    background-color: #fff; /* Couleur du bouton rond */
+    border-radius: 50%;
+    top: 4px;
+    left: 4px;
+    transition: transform 0.3s;
+}
+
+.toggle-switch2 input:checked + label:before {
+    transform: translateX(26px); /* Déplacer le bouton rond à droite lorsque l'interrupteur est activé */
+}
+
+.is-skiman{
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+    margin-bottom:15px;
+}
+
+.toggle-title{
+    flex:auto;
+    color:#272b32;
+    font-size: medium;
+    font-weight: 500;
+}

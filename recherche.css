@@ -1,9 +1,52 @@
 
-.u-section-1 {
-  min-height: 1079px;
-  background:#ffffff 50%;
+.shadow {
+  box-shadow: 0 0 10px rgba(41, 40, 40, 0.1); /* Ajoute une ombre légère autour de l'élément */
 }
 
+.search {
+  min-width:400px ;
+  position: relative;
+  display: flex;
+  display: flex;
+  justify-content: center; /* Centrage horizontal */
+  align-items: center; /* Centrage vertical */
+}
+.searchTerm {
+  width: 100%;
+  border: 3px solid #272b32;
+  border-right: none;
+  padding: 15px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+.searchTerm:focus {
+  color: #1a1c20;
+}
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #272b32;
+  background: #272b32;
+  text-align: center;
+  color: #eeeeee;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+.wrap {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
+ 
+ 
+ 
+ .u-section-1 {
+  min-height: 1079px;
+}
 
 .u-section-1 .u-image-1 {
   height: 609px;
@@ -663,7 +706,7 @@
 .r-section-4 .r-image-2 {
   width: 183px;
   height: 183px;
-  background-image: url("images/8fd61bc0-5bae-1121-8583-3332d09cf9eb.jpg");
+  background-image: url("images/affut.jpg");
   background-position: 50% 50%;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
   margin: -38px auto 0;
@@ -984,11 +1027,10 @@
   }
 } .r-section-5 {
   background-image: none;
-  margin: -250px auto 0;
 }
 
 .r-section-5 .r-sheet-1 {
-  min-height: 597px;
+  min-height: 200px;
   
 }
 
@@ -1048,9 +1090,10 @@
 }
 
 .r-section-5 .r-text-3 {
-  line-height: 1.8;
-  font-weight: 700;
-  margin: 30px 306px 0 0;
+  line-height: 1;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: gray;
 }
 
 .r-section-5 .r-text-4 {
@@ -1062,7 +1105,10 @@
 }
 
 .r-section-5 .r-container-layout-2 {
-  padding: 30px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center; /* Centrage horizontal */
 }
 
 .r-section-5 .r-text-5 {
@@ -1294,9 +1340,10 @@
 }
 
 .r-section-7 .r-text-1 {
-  font-size: 3rem;
-  font-weight: 700;
-  margin: 60px auto 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 20px;
+  color: #272b32;
 }
 
 .r-section-7 .r-text-2 {
@@ -1311,7 +1358,7 @@
 }
 
 .r-section-7 .r-list-1 {
-  margin: 63px 0 60px;
+  margin: 20px 0 60px;
 }
 
 .r-section-7 .r-repeater-1 {
@@ -1381,7 +1428,7 @@
 .r-section-7 .r-image-2 {
   width: 186px;
   height: 186px;
-  background-image: url("images/13064dd8-b859-4a0d-8b5b-0944d529a9c2.jpg");
+  background-image: url("images/affut.jpg");
   background-position: 50% 50%;
   margin: 0 auto 0 0;
 }
@@ -1985,12 +2032,12 @@
 }
 
 .r-section-10 .r-sheet-1 {
-  min-height: 704px;
+  min-height: 100px;
 }
 
 .r-section-10 .r-group-1 {
   width: 827px;
-  min-height: 584px;
+  min-height: 100px;
   background-image: none;
   margin: 60px auto;
 }

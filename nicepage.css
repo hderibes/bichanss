@@ -42559,7 +42559,9 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 80px;
+  min-height: 100px;
+  max-height: 150px;
+
 }
 
 .u-header .u-image-1 {
@@ -42569,7 +42571,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-logo-image-1 {
-  padding-top: 15px;
+  padding-top: 50px;
   max-width: 200px;
   /*width: 100%;*/
   height: 100%;
@@ -45073,7 +45075,7 @@ a {
 }
 /* ********  spacing ******** */
 .r-form-horizontal.r-form-spacing-50 .r-form-group {
-  margin-right: 50px;
+  margin-right: 50px; 
 }
 .r-form-horizontal.r-form-spacing-49 .r-form-group {
   margin-right: 49px;
@@ -45244,6 +45246,7 @@ a {
 .r-form .r-form-group.r-form-checkbox,
 .r-form .r-form-group.r-form-agree {
   display: flex;
+  
 }
 .r-form .r-form-group.r-form-checkbox input[type="checkbox"],
 .r-form .r-form-group.r-form-agree input[type="checkbox"] {
